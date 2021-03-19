@@ -110,10 +110,215 @@
 //  line(mouseX, mouseY, width/2, height/2); //size variable ok
 //}
 
-void setup(){
-  size(400, 400);
+//void setup(){
+//  size(400, 400);
+//  background(255);
+//}
+//void draw(){
+//  line(mouseX, mouseY, width/2, height/2); //size variable ok
+//}
+
+//void setup() {
+//  size(200, 200);
+//  background(255);
+//  stroke(0);
+//  smooth();
+//}
+//void draw() {
+//  line(pmouseX, pmouseY, mouseX, mouseY);
+//}
+
+
+//void setup() {
+//  size(400, 400);
+//}
+//void draw() {
+//  float speed = dist(mouseX, mouseY, pmouseX, pmouseY);
+//  stroke(speed);
+//  ellipse(mouseX, mouseY,speed, speed);
+//}
+
+//void setup(){
+//  size(100, 100);
+//}
+//void draw(){
+//}
+//void mousePressed() {
+//  println("mousePressed");
+//}
+
+
+//void setup(){
+//  size(100, 100);
+//}
+//void draw(){
+//}
+//void mousePressed() {
+//  if(mouseButton == LEFT){
+//    print("LEFT");
+//  }else{
+//    print("RIGTH");
+//  }
+//}
+
+//int value = 0;
+//void setup(){
+//  size(100, 100);
+//}
+//void draw(){
+//  fill(value);
+//  rect(25, 25, 50, 50);
+//}
+//void mousePressed() {
+//  if(value == 0){
+//    value = 255;
+//  }else{
+//    value=0;
+//  }
+//}
+
+
+//int value = 0;
+//void setup(){
+//  size(100, 100);
+//}
+//void draw(){
+//  fill(value);
+//  rect(25, 25, 50, 50);
+//}
+//void mouseReleased() {
+//  if(value == 0){
+//    value = 255;
+//  }else{
+//    value=0;
+//  }
+//}
+
+//int value = 0;
+//void setup(){
+//  size(100, 100);
+//}
+//void draw(){
+//  fill(value);
+//  rect(25, 25, 50, 50);
+//}
+//void mouseClicked() {
+//  if(value == 0){
+//    value = 255;
+//  }else{
+//    value=0;
+//  }
+//}
+
+//int value = 0;
+//void setup(){
+//  size(100, 100);
+//}
+//void draw(){
+//  fill(value);
+//  rect(25, 25, 50, 50);
+//}
+//void mouseMoved() {
+//  value++;
+//}
+
+//int value = 0;
+//void setup(){
+//  size(100, 100);
+//}
+//void draw(){
+//  fill(value);
+//  rect(25, 25, 50, 50);
+//}
+//void mouseDragged() {
+//  value++;
+//}
+
+//int value = 0;
+//void setup(){
+//  size(100, 100);
+//}
+//void draw(){
+//  fill(value);
+//  rect(25, 25, 50, 50);
+//}
+//void mouseWheel() {
+//  value++;
+//}
+
+//void setup() {
+//  size(100, 100);
+//}
+//void draw() {
+//}
+//void mousePressed() {
+//  println("mousePressed"); 
+//}
+//void mouseReleased() {
+//  println("mouseReleased"); 
+//}
+//void mouseClicked() {
+//  println("mouseClicked"); 
+//}
+//void mouseMoved() {
+//  println("mouseMoved"); 
+//}
+//void mouseDragged() { 
+//  println("mouseDragged"); 
+//}
+//void mouseWheel() { 
+//  println("mouseWheel"); 
+//}
+
+//int i = 0;
+//void setup(){
+//  size(100,100);
+//}
+//void draw(){
+//  if(keyPressed){
+//    i++;
+//    println(i);
+//  }
+//}
+
+//int i = 0;
+//void setup(){
+//  size(100,100);
+//}
+//void draw(){
+//}
+//void keyPressed(){
+//  i++;
+//  println(i);
+//}
+
+
+//void setup(){
+//  size(100,100);
+//}
+//void draw(){
+//}
+//void keyPressed(){
+//  println(key);
+//  println(keyCode);
+//}
+//void keyReleased(){
+//  println("keyReleased");
+//}
+
+
+void setup() {
+  size(200,200);
   background(255);
 }
-void draw(){
-  line(mouseX, mouseY, width/2, height/2); //size variable ok
+void draw() {
+}
+void mousePressed() {
+  stroke(0);
+  fill(175);
+  rectMode(CENTER);
+  rect(mouseX, mouseY, 10, 10);
+}
+void keyPressed() {
+  background(255);
 }
